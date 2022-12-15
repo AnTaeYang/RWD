@@ -6,7 +6,6 @@
 
 /* 공통 스타일 */
 
-
 body {
   background-color: var(--yellow);
 }
@@ -17,10 +16,18 @@ body {
   }
 }
 
-/* 중단점 769px 이상 */
-
+/* 중단점 - 769px 이상 */
 @media (min-width: 769px) {
   body {
     background-color: var(--blue);
   }
+}
+
+.news__videoContainer {
+  width: 70%;
+}
+
+.book__cover {
+  width: 30%;
+  background-color: pink;
 }
