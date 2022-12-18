@@ -35,10 +35,9 @@
 }
 
 /* 공통 검색 폼 */
-
-/* input[type="search"] {
+input[type="search"] {
   -webkit-appearance: none;
-  appearance: none; */
+  appearance: none;
 }
 
 .searchForm__group {
@@ -185,6 +184,7 @@
     backdrop-filter: blur(4px);
     padding: var(--spacing-lg);
     transform: translateX(-150%);
+    /* transition: all 600ms; */
   }
 
   .menu__item {
